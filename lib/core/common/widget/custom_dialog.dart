@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:demo/core/common/ui_padding.dart';
 
+import '../ui_padding.dart';
 import '../../../src/cubit/theme/theme_cubit.dart';
 import '../app_color.dart';
 import '../screen.dart';

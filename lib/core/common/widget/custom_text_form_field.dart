@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:demo/core/common/ui_padding.dart';
+
+import '../ui_padding.dart';
 
 class CustomTextFormField extends StatelessWidget {
   CustomTextFormField({

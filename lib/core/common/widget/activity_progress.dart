@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:demo/core/common/app_color.dart';
+import '../app_color.dart';
 
 class ActivityProgressIndicator extends StatelessWidget {
   const ActivityProgressIndicator({
