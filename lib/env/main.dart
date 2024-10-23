@@ -26,8 +26,13 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     AppRouter appRouter = AppRouter();
 
-    return BlocProvider(
-      create: (context) => InternetCubit(),
+    return MultiBlocProvider(
+      providers: [
+        BlocProvider<InternetCubit>(
+          create: (context) => InternetCubit(),
+        ),
+       
+      ],
       child: MaterialApp.router(
         debugShowCheckedModeBanner: false,
         localizationsDelegates: context.localizationDelegates,
